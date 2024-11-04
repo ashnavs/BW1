@@ -6,7 +6,7 @@ function App() {
   const message = 'Hi from parent'
   return (
     <>
-      <h2>Search component</h2>
+      <h2>Parent component</h2>
       <Child message={message}/>
     </>
   )
