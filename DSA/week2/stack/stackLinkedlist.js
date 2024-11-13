@@ -19,6 +19,15 @@ class stackLinkedlist{
     push(value){
         const node = new Node(value)
         if(this.isEmpty()) this.top = node
+
+        let curr = this.top
+        while(curr){
+            if(curr.value === value){
+                console.log('value already exist');
+                return
+            }
+            curr = curr.next
+        }
            
         node.next = this.top;
         this.top = node
@@ -51,8 +60,8 @@ class stackLinkedlist{
 }
 const stack = new stackLinkedlist()
 
-stack.push()
-// stack.push(20)
+stack.push(20)
+stack.push(20)
 // stack.push(30)
 // stack.pop()
 stack.print()

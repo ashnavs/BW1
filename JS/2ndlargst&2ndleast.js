@@ -1,4 +1,4 @@
-//step1: remove dupicates
+//step1: remove duplicates
 
 function findArr(arr){
     let uniqueArr = [];

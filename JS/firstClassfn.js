@@ -1,4 +1,4 @@
-//eg:1 Functions can be stored a s variables
+//eg:1 Functions can be stored as variables
 
 const greet = function(name){
     return `Hello ${name}`

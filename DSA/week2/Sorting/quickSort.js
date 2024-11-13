@@ -17,5 +17,5 @@ function quickSort(arr){
     return [...quickSort(left),pivot,...quickSort(right)]
 }
 
-let arr = [4,3,1,5,2]
+let arr = 'sih'
 console.log(quickSort(arr));

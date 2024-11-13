@@ -25,6 +25,8 @@ import Uncontrolled_Component from './Uncontrolled_Component';
 import CountryList from './CountryList';
 import Counter from './Counter';
 import EnhancedCounterDisplay from './HOC'
+import CountdownTimer from './CountdownTimer';
+import MyForm from './Form';
 
 function App() {
   const [childMessage, setChildMessage] = useState('');
@@ -42,7 +44,9 @@ function App() {
       {/* <Uncontrolled_Component/> */}
       {/* <CountryList/> */}
       {/* <Counter/> */}
-      <EnhancedCounterDisplay />
+      {/* <EnhancedCounterDisplay /> */}
+      {/* <CountdownTimer startValue={20}/> */}
+      <MyForm/>
     </div>
   )
 }
